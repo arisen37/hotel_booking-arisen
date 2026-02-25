@@ -45,7 +45,7 @@ model hotels{
   city String
   country String
   amenities Json?
-  rating Decimal @default(0.0)
+  rating Float @default(0.0)
   total_reviews Int @default(0)
   createdAt DateTime @default(now())
   rooms rooms[]
